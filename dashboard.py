@@ -123,7 +123,7 @@ def create_rent_bywind_df(df):
     return rent_bywind_df
 
 # memuat berkas day_df.csv sebagai dataframe
-all_df = pd.read_csv('day.csv')
+all_df = pd.read_csv('day_df.csv')
 
 # memastikan kolom dteday bertipe datetime
 all_df['dteday'] = pd.to_datetime(all_df['dteday'])
