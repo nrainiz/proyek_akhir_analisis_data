@@ -198,7 +198,7 @@ ax.tick_params(axis='x', labelsize=15)
 st.pyplot(fig)
 
 # menampilkan informasi jumlah sewa sepeda berdasarkan musim dan perbandingan user casual dan registered
-st.subheader('Usage Breakdown')
+st.subheader('Season & User Analysis')
 col1, col2 = st.columns([3, 2])
 
 with col1:
