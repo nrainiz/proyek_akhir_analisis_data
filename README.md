@@ -1,6 +1,9 @@
 # Bike Sharing Dashboard
 ## Setup environment 
 ```
+python -m venv namenv
+```
+```
 pip install -r requirements.txt
 ```
 ## Run streamlit app
